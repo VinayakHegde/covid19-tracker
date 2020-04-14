@@ -1,0 +1,42 @@
+.container {
+  margin: 10px 0;
+}
+
+.infected {
+  border: 1px solid rgba(0, 0, 255, 0.5);
+}
+
+.recovered {
+  border: 1px solid rgba(0, 255, 0, 0.5);
+}
+
+.deaths {
+  border: 1px solid rgba(255, 0, 0, 0.5);
+}
+
+.card {
+  margin: 10px 0 5px !important;
+  border-bottom-width: 10px;
+  border-radius: 5px;
+  width: 280px;
+}
+
+.label {
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+  padding: 10px 10px 0;
+  border-bottom: 1px solid gainsboro;
+}
+
+.value {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0 5px 20px 5px;
+  line-height: 2;
+}
+
+@media only screen and (max-width: 770px) {
+  .card {
+    margin: 2% 0 !important;
+  }
+}
