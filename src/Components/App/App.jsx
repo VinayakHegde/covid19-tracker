@@ -63,7 +63,7 @@ const App = ({
         )}
       </main>
       <footer className="App__footer">
-        &copy; Made with love by Vinnie {new Date().getFullYear()}
+        &copy; Viva Technology Consultancy Ltd. {new Date().getFullYear()}
       </footer>
     </>
   );
