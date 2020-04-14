@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  &__header,
+  &__footer {
+    font-size: 1.5em;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 800;
+  }
+  &__header {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+    &__image {
+      height: 100%;
+    }
+    &__title {
+      flex: 1;
+      text-align: left;
+      text-indent: 16px;
+      line-height: 73px;
+    }
+  }
+  &__footer {
+    background-color: #282c34;
+    color: white;
+    font-size: 0.75em;
+    height: 20px;
+    line-height: 20px;
+  }
+  &__main {
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    &__content {
+      display: flex;
+      flex-direction: column;
+      padding: 10px 10px 0;
+      border: 1px dashed gainsboro;
+      border-radius: 4px;
+    }
+    &__error {
+      background-image: url("../../images/keepcalm.gif");
+      flex: 1;
+      border-radius: 4px;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+  &__content {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .App__header {
+    &__title {
+      display: none;
+    }
+  }
+}
