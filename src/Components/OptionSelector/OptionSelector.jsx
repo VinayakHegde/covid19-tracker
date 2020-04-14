@@ -1,5 +1,6 @@
 import React from "react";
 import { NativeSelect } from "@material-ui/core";
+import './OptionSelector.scss';
 
 const OptionSelector = ({ handleCountryChange, list, label, defaultValue }) => {
   return (

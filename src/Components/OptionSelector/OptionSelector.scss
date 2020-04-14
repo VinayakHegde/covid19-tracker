@@ -1,0 +1,10 @@
+.MuiInput-root {
+  border-bottom: 1px solid gainsboro;
+  height: 35px;
+  padding: 5px;
+}
+.MuiInput-underline:before,
+.MuiInput-underline:after {
+  content: "";
+  display: none;
+}
